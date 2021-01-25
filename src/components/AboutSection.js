@@ -1,3 +1,5 @@
+import home1 from "../img/home1.png";
+
 const AboutSection = () => {
   return (
     <div>
@@ -20,6 +22,9 @@ const AboutSection = () => {
           have professionals with amazing skills
         </p>
         <button>Contact us</button>
+      </div>
+      <div className="image">
+        <img src={home1} alt="guy with a camera" />
       </div>
     </div>
   );
